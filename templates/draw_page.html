@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block content %}
+<div id="viewport">
+    <div class="page_tools">
+        <button class="page_tools__btn" onclick="submit()"><i class="fa fa-play"></i></button>
+    </div>
+    <div class="page_container">
+        <div class="page_container__blank">
+            <div class="page_container__blank-first">
+                <canvas class="blank-first__canvas"></canvas>
+            </div>
+            <div class="page_container__blank-second">
+                <div class="page_container__blank-second-fill">
+                    <div class="page_line"></div>
+                    <div class="page_line"></div>
+                    <div class="page_line"></div>
+                    <div class="page_line"></div>
+                    <div class="page_line"></div>
+                    <div class="page_line"></div>
+                    <div class="page_line"></div>
+                    <div class="page_line"></div>
+                    <div class="page_line"></div>
+                    <div class="page_line"></div>
+                    <div class="page_line"></div>
+                    <div class="page_line"></div>
+                    <div class="page_line"></div>
+                    <div class="page_line"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
+{% block script %}
+<script src="static/js/main.js"></script>
+{% endblock %}
